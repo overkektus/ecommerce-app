@@ -8,7 +8,7 @@ module.exports = {
   coverageDirectory: "coverage",
   coverageProvider: "v8",
   coverageReporters: ["text", "lcov"],
-  coverageThreashold: {
+  coverageThreshold: {
     global: {
       branch: 100,
       functions: 100,
